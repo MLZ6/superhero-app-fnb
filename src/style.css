@@ -1,0 +1,160 @@
+body {
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 56px;
+  padding-top: 56px;
+  margin: 0;
+  background-color: black;
+}
+.main {
+  text-align: center;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  background-image: url();
+  padding-top: 40px;
+}
+.main-content {
+  padding: 20px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  color: aqua;
+}
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 64px;
+  color: orangered;
+}
+.hero h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: orange;
+  margin: 0;
+  font-size: 25px;
+  line-height: 30px;
+}
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+}
+.hero p {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  color: aqua;
+  font-weight: bold;
+}
+.content-container {
+  padding: 60px 20px;
+}
+.content-container h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.content-container h2 {
+  font-size: 30px;
+}
+.content {
+  margin: 30px;
+}
+.content h3 {
+  font-size: 40px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+.btn-branding {
+  background-color: aqua;
+  border-radius: 30px;
+  color: black;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+.btn-branding-outline {
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: aqua;
+  border: 1px solid aqua;
+}
+.project-description {
+  padding: 120px 60px;
+}
+.logo {
+  max-height: 70px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  color: aqua;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+nav a {
+  text-decoration: none;
+  color: aqua;
+}
+nav li.active a {
+  color: white;
+}
+nav a:hover {
+  text-decoration: underline;
+  transition: all 200ms ease-in-out;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  nav li {
+    text-align: center;
+  }
+}
+img {
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin: top 30px;
+  color: white;
+}
