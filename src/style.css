@@ -1,19 +1,34 @@
 body {
   font-family: "Poppins", sans-serif;
-  padding-bottom: 56px;
   padding-top: 56px;
+  padding-bottom: 56px;
   margin: 0;
-  background-color: black;
+  color: #ffffff;
+  height: 100%;
 }
+
 .main {
   text-align: center;
   color: white;
   font-family: "Oswald", sans-serif;
-  background-image: url();
-  padding-top: 40px;
+  padding-top: 20px;
 }
-.main-content {
-  padding: 20px;
+
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+  color: #ff0000;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  
+  
+}
+
+h2 {
+  font-size: 64px;
+  color: black;
+  text-transform:uppercase;
 }
 
 h3,
@@ -21,107 +36,136 @@ h4,
 h5,
 h6 {
   font-family: "Oswald", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
-  color: aqua;
+  color: red;
 }
-h1 {
-  font-size: 96px;
-  line-height: 1.5;
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: red;
+  margin: 0;
+  font-size: 25px;
+  line-height: 30px;
 }
-h2 {
-  font-size: 64px;
-  color: orangered;
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
 }
+
 .hero h2 {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 24px;
   line-height: 2;
 }
-p {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  color: orange;
-  margin: 0;
-  font-size: 25px;
-  line-height: 30px;
-}
-.hero {
-  text-align: center;
-  padding: 80px 20px;
-}
+
 .hero p {
-  font-family: "Poppins", sans-serif;
   font-size: 36px;
-  color: aqua;
+  color: red;
   font-weight: bold;
 }
+
 .content-container {
   padding: 60px 20px;
 }
+
 .content-container h1 {
   font-size: 64px;
   line-height: 80px;
 }
+
 .content-container h2 {
   font-size: 30px;
 }
+
 .content {
   margin: 30px;
 }
+
 .content h3 {
   font-size: 40px;
   line-height: 1.5;
   margin: 20px 0 0;
 }
+
+#quiz-container {
+  background-color: #1f2833;
+  border: 2px solid #ff0000;
+  border-radius: 15px;
+}
+
+#question {
+  color: #66fcf1;
+}
+
 .btn-branding {
-  background-color: aqua;
+  background-color: red;
   border-radius: 30px;
-  color: black;
+  color: blue;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
 }
+
 .btn-branding-outline {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
-  color: aqua;
-  border: 1px solid aqua;
+  border: 1px solid #45a29e;
+  color: #ffffff;
 }
+
+.btn-outline-light:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+  border-color: #ff0000;
+}
+
 .project-description {
   padding: 120px 60px;
 }
+
 .logo {
   max-height: 70px;
 }
+
 nav {
   padding: 20px 0;
 }
+
 nav ul {
   padding: 0;
   margin: 0;
   color: aqua;
 }
+
 nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
   margin-left: 15px;
 }
+
 nav a {
   text-decoration: none;
   color: aqua;
 }
+
 nav li.active a {
   color: white;
 }
+
 nav a:hover {
   text-decoration: underline;
   transition: all 200ms ease-in-out;
+}
+
+.quiz {
+  padding-top: 80px;
 }
 
 @media (max-width: 900px) {
@@ -129,9 +173,11 @@ nav a:hover {
     font-size: 44px;
     line-height: 1.5;
   }
+
   h2 {
     font-size: 44px;
   }
+
   h3 {
     font-size: 18px;
   }
@@ -140,21 +186,33 @@ nav a:hover {
     text-align: center;
     padding: 0;
   }
+
   .project-description {
     padding: 0;
     text-align: center;
   }
+
   nav li {
     text-align: center;
   }
 }
+
 img {
-  border-radius: 10px;
+  border-radius: 50px;
+  width: 100%;
+  transition: all 150ms ease-in-out;
+  padding-top:10px;
+}
+
+img:hover {
+  cursor: pointer;
+  filter: contrast(80%);
+  transform: scale(0.8);
 }
 
 footer {
   text-align: center;
   font-size: 14px;
-  margin: top 30px;
   color: white;
+  padding-top: 40px;
 }
